@@ -15,12 +15,13 @@ public class Capsule {
 		System.out.println(taro.getAge());
 
 
-		taro.setAge(30);
 
-		System.out.println(taro.setAge());
+	System.out.println(taro.getAge());
 
+	taro.setAge(30);
 
+	System.out.println(taro.getAge());
 
-}
+	}
 
 }
